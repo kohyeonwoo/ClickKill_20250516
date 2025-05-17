@@ -1071,25 +1071,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 352487627417808488, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
-      propertyPath: maxHealth
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 352487627417808488, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
-      propertyPath: currentHealth
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 7158975086000630236, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
       propertyPath: m_Name
       value: Enemy1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158975086000630236, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158975086000630236, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8026330683257379810, guid: 74dbb10e5a2d26a44b4c5b465e0a700e, type: 3}
       propertyPath: m_LocalPosition.x

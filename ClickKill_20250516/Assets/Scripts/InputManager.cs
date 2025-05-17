@@ -23,7 +23,11 @@ public class InputManager : MonoBehaviour
 
             if(Physics.Raycast(ray, out hit))
             {
-
+                //if(hit.collider.gameObject.tag == "Enemy")
+                //{
+                //    hit.collider.gameObject.SetActive(false);
+                //}
+            
                 if(hit.collider.gameObject.tag == "Enemy")
                 {
                     IDamageable damageable = hit.collider.gameObject.GetComponent<IDamageable>();

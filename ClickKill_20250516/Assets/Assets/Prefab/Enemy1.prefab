@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8026330683257379810}
-  - component: {fileID: 352487627417808488}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,21 +33,6 @@ Transform:
   - {fileID: 1605905836911908096}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &352487627417808488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7158975086000630236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f55a81746be35846b507424dd4f29c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentCharacter: {fileID: 5566377205849477733}
-  regdollCharacter: {fileID: 6408878737163217877}
-  spine: {fileID: 8702965204982457731}
 --- !u!1001 &2679370523276223473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -180,13 +164,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7750840470421280022, guid: 6850f86477d968d4cb1365e7296e3ed1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3495579538400432607}
   m_SourcePrefab: {fileID: 100100000, guid: 6850f86477d968d4cb1365e7296e3ed1, type: 3}
 --- !u!1 &5566377205849477733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7750840470421280022, guid: 6850f86477d968d4cb1365e7296e3ed1, type: 3}
   m_PrefabInstance: {fileID: 2787511308899305331}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3495579538400432607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5566377205849477733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f55a81746be35846b507424dd4f29c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCharacter: {fileID: 5566377205849477733}
+  regdollCharacter: {fileID: 6408878737163217877}
+  spine: {fileID: 8702965204982457731}
+  maxHealth: 5
+  currentHealth: 5
+  bDead: 0
 --- !u!4 &8659993449384599042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6809795497769081201, guid: 6850f86477d968d4cb1365e7296e3ed1, type: 3}
