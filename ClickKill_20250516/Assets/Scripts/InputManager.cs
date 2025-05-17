@@ -9,6 +9,10 @@ public class InputManager : MonoBehaviour
 
     public float attackPoint;
 
+    public List<GameObject> assistantList = new List<GameObject>();
+
+    public List<Transform> areaList = new List<Transform>();
+
     private void Update()
     {
         InputInform();
@@ -33,7 +37,8 @@ public class InputManager : MonoBehaviour
                     IDamageable damageable = hit.collider.gameObject.GetComponent<IDamageable>();
 
                     if(damageable != null)
-                    {                        
+                    {
+                        AudioManager.Instance.PlaySFX("ShotSound");
                         damageable.Damage(attackPoint);
                     }
 
@@ -61,6 +66,14 @@ public class InputManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SpawnAssistant()
+    {
+        int randSpawn = Random.Range(0, assistantList.Count);
+        int randArea = Random.Range(0, areaList.Count);
+
+        GameObject assistant = Instantiate(assistantList[randSpawn], areaList[randArea].position, Quaternion.identity);
     }
 
 }

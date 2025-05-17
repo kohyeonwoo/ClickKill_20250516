@@ -1,0 +1,314 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 16066 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55904
+Successfully changed project path to: C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
+C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24332] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 1723646540 [EditorId] 1723646540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24332] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 1723646540 [EditorId] 1723646540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 10.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8033 MB
+    Driver:   31.0.101.4032
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004751 seconds.
+- Loaded All Assemblies, in  0.336 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2164 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.481 seconds
+Domain Reload Profiling: 2816ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2260ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 887ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.5 KB). Loaded Objects now: 3616.
+Memory consumption went from 128.6 MB to 128.6 MB.
+Total: 9.637400 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.189200 ms MarkObjects: 8.991300 ms  DeleteObjects: 0.171500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/BodyEffector.cs: a44c04fe384259c595c1b9cc1140f05f -> 381179ecff824c84675fe7013cb77d4f
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SinRotate.cs: 91da0108ec9fedecc0959ea4dd247e83 -> 29d18b94a0e49def592103e7dc863175
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Leg.cs: 92881a7513dfecd8dacf7ff35f7b15c1 -> 6e6190d96200de98f46c890061b9cfae
+  custom:scripting/monoscript/fileName/GetVelocityFromTransform.cs: 8dd8e82d68e129cffa5c8a25e096f350 -> a6b7a482bb396c634976542d97a77e9e
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LegIK.cs: a2e2aeea340534687b12527d3a7da5ae -> e4981f60a18a9c5beae432bc19366f0c
+  custom:scripting/monoscript/fileName/LegController.cs: 0c507b3b8da0ff2fa0a6a45fac5ff7de -> fc16c3c09bcea420207ec3b597e9e9a4
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Follow.cs: 38f6407a73a442a936661d8c255efded -> 2b89126ed5533d34197fcd14e9782993
+  custom:scripting/monoscript/fileName/Worm.cs: af7e0817f7b940bed07175b558410bc2 -> 10b7f81fe057617a4f4c1bd52aab2954
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85566.712786 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/K찼mpia.prefab
+  artifactKey: Guid(10b9f75b2f08b8b47b31fbb7cf5e1d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/K찼mpia.prefab using Guid(10b9f75b2f08b8b47b31fbb7cf5e1d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6443c5d67501c98d0d2a4a3ce78a32ae') in 0.136089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Lava Guardian.prefab
+  artifactKey: Guid(64bc0ccc2de2dd64f92958be43b94997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Lava Guardian.prefab using Guid(64bc0ccc2de2dd64f92958be43b94997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4206779b3434434491db70726528067a') in 0.032120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Spider.prefab
+  artifactKey: Guid(4eceddcec18153b4e9fed38a2aeeec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Spider.prefab using Guid(4eceddcec18153b4e9fed38a2aeeec6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb73cd4a138fd6038ee9c6fb096ab2ca') in 0.037970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Stone Troll.prefab
+  artifactKey: Guid(b9f6668c74fdc1d4a8215485fa79d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Stone Troll.prefab using Guid(b9f6668c74fdc1d4a8215485fa79d7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2676fd7a657c749ece8b0bd4ffb214c6') in 0.027103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.729062 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/BoneDragon.prefab
+  artifactKey: Guid(aa370961f1604da4eb0e2d282f90ff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/BoneDragon.prefab using Guid(aa370961f1604da4eb0e2d282f90ff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed57e5e921472444a7564f4b39449bf') in 0.037995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Fire Titan.prefab
+  artifactKey: Guid(6272987ded1192a4297a1023e2e444ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Fire Titan.prefab using Guid(6272987ded1192a4297a1023e2e444ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaec57a10726718c112d491787155c6') in 0.161279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 22.303301 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Canvas.mat
+  artifactKey: Guid(c80e511e8991e624d9f1f85aefbb23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Canvas.mat using Guid(c80e511e8991e624d9f1f85aefbb23d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8085102630664993f7135740c7e18265') in 0.065595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Grass.mat
+  artifactKey: Guid(8c7848e1e1fd56942952135751ffa87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Grass.mat using Guid(8c7848e1e1fd56942952135751ffa87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90f80a2510700798a55efdb581ad76d') in 0.052475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Ray 1.mat
+  artifactKey: Guid(c89a83df2169e2f43b71a68e5875ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Ray 1.mat using Guid(c89a83df2169e2f43b71a68e5875ca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed056951a821796ab4309ddf204def94') in 0.026056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Pupil.mat
+  artifactKey: Guid(85b210910ae11ca469d30715ec5fa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Pupil.mat using Guid(85b210910ae11ca469d30715ec5fa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec43856b77a6925269a54deba11b7c6') in 0.030573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Skin.mat
+  artifactKey: Guid(ad8d826e3db38464995ef29edf786392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Skin.mat using Guid(ad8d826e3db38464995ef29edf786392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faa17ae639da0496f203cb9b538233b') in 0.026645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Ray 2.mat
+  artifactKey: Guid(019b77736849c7841a003b999bf861a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Ray 2.mat using Guid(019b77736849c7841a003b999bf861a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb3f38fe04bcb8b4ff4ca52ac116f86') in 0.031300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Eye.mat
+  artifactKey: Guid(1923b28aa9d2f0446873425fcc62b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Materials/Eye.mat using Guid(1923b28aa9d2f0446873425fcc62b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6c21511edac712f8acf80352088436') in 0.028387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.938287 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Static/Dragon.prefab
+  artifactKey: Guid(eddfc48e0bd52414f8ebb9e22ffb35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Static/Dragon.prefab using Guid(eddfc48e0bd52414f8ebb9e22ffb35f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6ada9eb90f8d38515e6a49d8c27e16') in 0.047992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Static/Stone Spider.prefab
+  artifactKey: Guid(82be3a92ab1ea8844a01ddbe5b24999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Static/Stone Spider.prefab using Guid(82be3a92ab1ea8844a01ddbe5b24999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a73bcd0232e0c2f50a92d58bc0d8a') in 0.064484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
