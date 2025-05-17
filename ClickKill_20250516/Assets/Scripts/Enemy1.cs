@@ -2,19 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1 : MonoBehaviour
+public class Enemy1 : MonoBehaviour, IDamageable
 {
     public GameObject currentCharacter;
     public GameObject regdollCharacter;
 
     public Rigidbody spine;
 
-    private void Update()
+    public float maxHealth;
+    public float currentHealth;
+
+    public bool bDead;
+
+    private void Start()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            ChangeCharacter();
-        }
+        currentHealth = maxHealth;
     }
 
     public void ChangeCharacter()
@@ -38,6 +40,18 @@ public class Enemy1 : MonoBehaviour
 
             regdoll.GetChild(i).localPosition = origin.GetChild(i).localPosition;
             regdoll.GetChild(i).localRotation = origin.GetChild(i).localRotation;
+        }
+    }
+
+    public void Damage(float TheDamage)
+    {
+        currentHealth -= TheDamage;
+
+        Debug.Log("¸Â¾Ò´Ù À¸¾Ç");
+
+        if (currentHealth <= 0)
+        {
+            ChangeCharacter();
         }
     }
 

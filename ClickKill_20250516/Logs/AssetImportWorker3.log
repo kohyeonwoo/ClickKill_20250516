@@ -15,7 +15,7 @@ C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52214
+52876
 Successfully changed project path to: C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
 C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gram/Desktop/ClickKill/ClickKill_20250516/ClickKill_20250516
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2268] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 1118957940 [EditorId] 1118957940 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6024] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 127746462 [EditorId] 127746462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2268] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 1118957940 [EditorId] 1118957940 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6024] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 127746462 [EditorId] 127746462 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004705 seconds.
-- Loaded All Assemblies, in  0.277 seconds
+Registered in 0.006760 seconds.
+- Loaded All Assemblies, in  0.338 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 192 ms
+Android Extension - Scanning For ADB Devices 217 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.460 seconds
-Domain Reload Profiling: 736ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (82ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (102ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (127ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (460ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (540ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (483ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (281ms)
+			InitializePlatformSupportModulesInManaged (335ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Domain Reload Profiling: 736ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 889ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1133ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (290ms)
-		LoadAssemblies (207ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (114ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (426ms)
+	FinalizeReload (538ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (402ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.0 KB). Loaded Objects now: 3603.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 2.569400 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.226700 ms  DeleteObjects: 0.087700 ms)
+Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.4 KB). Loaded Objects now: 3604.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 3.769800 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.121700 ms MarkObjects: 3.216400 ms  DeleteObjects: 0.127400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,71 +180,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.448 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.899 seconds
-Domain Reload Profiling: 1344ms
-	BeginReloadAssembly (164ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (282ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (899ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.1 KB). Loaded Objects now: 3606.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 2.922200 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.585700 ms  DeleteObjects: 0.053900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 57152.908609 seconds.
+  path: Assets/Assets/Prefab/Enemy_1_Regdoll.prefab
+  artifactKey: Guid(8bca428fbe760a94ba6a889d4558da1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Prefab/Enemy_1_Regdoll.prefab using Guid(8bca428fbe760a94ba6a889d4558da1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71a755023c36bc4b4194219f752680a7') in 0.112591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Yurowm/Shaders/SkinShader.shader
+  artifactKey: Guid(02194ff69459f864c9a1d5e3db15b129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Shaders/SkinShader.shader using Guid(02194ff69459f864c9a1d5e3db15b129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '636246578a440fa53d3580aebe4e3663') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Assets/Yurowm/Weapons/SciFiRifle.prefab
+  artifactKey: Guid(d992a232642f7574b80a75c2ca4b4cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Weapons/SciFiRifle.prefab using Guid(d992a232642f7574b80a75c2ca4b4cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a323254252891ce9adef8cba4349b2cd') in 0.066160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx
+  artifactKey: Guid(a55b75e1bbafd1241b488997bb65464c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Characters/Sci-fi Soldier/Sci-Fi_Soldier.fbx using Guid(a55b75e1bbafd1241b488997bb65464c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b514d45878734b7db202ad0d2c005e23') in 0.052822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Yurowm/Animations/Legacy/Sneak_Rifle.FBX
+  artifactKey: Guid(cbbb516c7b4806f4fb1fb070b759b525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Legacy/Sneak_Rifle.FBX using Guid(cbbb516c7b4806f4fb1fb070b759b525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57c98ce4a34219f4e52bea130ea6fce3') in 0.062845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Yurowm/Animations/Wary_Rifle.FBX
+  artifactKey: Guid(228cbabfcd2329242be2ac548a5eb165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Wary_Rifle.FBX using Guid(228cbabfcd2329242be2ac548a5eb165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a049ef7f572131b01df27ed19c0707b') in 0.049623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Yurowm/Animations/Idle_HandUp.FBX
+  artifactKey: Guid(1fa629cc25c4e8544ad6c94308a96efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Idle_HandUp.FBX using Guid(1fa629cc25c4e8544ad6c94308a96efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0889576ad4b2b948fb904dde5f666001') in 0.051014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Yurowm/Animations/Legacy/Walk.FBX
+  artifactKey: Guid(2db4b36713e484043961e076585fd7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Legacy/Walk.FBX using Guid(2db4b36713e484043961e076585fd7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a80509400312bd896d06c4acc71d1823') in 0.050939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Yurowm/Textures/Sci-Fi_Rifle.png
+  artifactKey: Guid(a533bf7e82407ef43b672d6913b21ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Textures/Sci-Fi_Rifle.png using Guid(a533bf7e82407ef43b672d6913b21ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ff6f009a19d39d3429c8c7e82e8ed57') in 0.080647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Yurowm/Animations/Fire_SniperRifle.FBX
+  artifactKey: Guid(75fb60ee2bc98f04fbcd08239ff9dcdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Fire_SniperRifle.FBX using Guid(75fb60ee2bc98f04fbcd08239ff9dcdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff93274f79d1d4dc706acb5ce9882d8a') in 0.052202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Yurowm/Animations/Damage2.FBX
+  artifactKey: Guid(b353efcedd1ef7c45a4a4e9f4d560a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Damage2.FBX using Guid(b353efcedd1ef7c45a4a4e9f4d560a5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd7ead04616f22eaa78572feac5ab926') in 0.035228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/Yurowm/Animations/Sneak_Rifle.FBX
+  artifactKey: Guid(f4f4d4ce8b792e848a8f64d271554a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Sneak_Rifle.FBX using Guid(f4f4d4ce8b792e848a8f64d271554a88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '046b1866a1426abd4dd02399a888bcba') in 0.049509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Yurowm/Animations/CrouchingRun.FBX
+  artifactKey: Guid(3e8ca7ccef0e73c48b7f75796674058d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/CrouchingRun.FBX using Guid(3e8ca7ccef0e73c48b7f75796674058d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd498f234419871138abe3e20c83bee76') in 0.029691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Yurowm/Animations/Idle_Rifle.FBX
+  artifactKey: Guid(7a96c87d25ef88e4fb86c8cf59e070aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Idle_Rifle.FBX using Guid(7a96c87d25ef88e4fb86c8cf59e070aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '605c0b0bd5ff1aafe3b58b5ff87d4d9d') in 0.034260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Yurowm/Animations/Legacy/Run_Rifle.FBX
+  artifactKey: Guid(f2e31baf2659a8a4397167b092d9f05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Legacy/Run_Rifle.FBX using Guid(f2e31baf2659a8a4397167b092d9f05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a9190c5103990dd321bd328f1d21a00') in 0.044988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Yurowm/Animations/Death_Rifle.FBX
+  artifactKey: Guid(c749f3a8aaf10cd44b3c536ea2e67495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Death_Rifle.FBX using Guid(c749f3a8aaf10cd44b3c536ea2e67495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06931a76bc98e8fdf0c8c9223bf04966') in 0.046504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Yurowm/Animations/Idle.FBX
+  artifactKey: Guid(ad14061f34e52954c8140cf33bea1253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Idle.FBX using Guid(ad14061f34e52954c8140cf33bea1253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '644c2ce690f28eb7f115e779d701f84b') in 0.034598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Yurowm/Animations/Legacy/CrouchingRun_Rifle.FBX
+  artifactKey: Guid(5f6939284609ea743ac1e28131b92701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Legacy/CrouchingRun_Rifle.FBX using Guid(5f6939284609ea743ac1e28131b92701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddcd5d1667cf82723b6a3dec55fb56a9') in 0.055009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Yurowm/Animations/Legacy/Idle_HandUp.FBX
+  artifactKey: Guid(108b2bd01a461b042bc6fbcdb774131f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets/Yurowm/Animations/Legacy/Idle_HandUp.FBX using Guid(108b2bd01a461b042bc6fbcdb774131f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0c9d8a4aa5e9a5971cd7bd8f6a07861') in 0.055808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

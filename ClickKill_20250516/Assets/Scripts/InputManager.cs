@@ -7,10 +7,12 @@ public class InputManager : MonoBehaviour
 
     private RaycastHit hit;
 
+    public float attackPoint;
+
     private void Update()
     {
-       // InputInform();
-        TouchInput();
+        InputInform();
+       // TouchInput();
     }
 
     private void InputInform()
@@ -21,6 +23,19 @@ public class InputManager : MonoBehaviour
 
             if(Physics.Raycast(ray, out hit))
             {
+
+                if(hit.collider.gameObject.tag == "Enemy")
+                {
+                    IDamageable damageable = hit.collider.gameObject.GetComponent<IDamageable>();
+
+                    if(damageable != null)
+                    {                        
+                        damageable.Damage(attackPoint);
+                    }
+
+                    Debug.Log("Àû ¸¸Áü");
+                }
+
                 Debug.Log("hit name  : " + hit.collider.gameObject.name);
             }
       }
