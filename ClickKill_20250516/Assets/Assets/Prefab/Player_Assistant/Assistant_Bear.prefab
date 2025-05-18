@@ -527,9 +527,9 @@ MonoBehaviour:
   target: {fileID: 0}
   bAttack: 0
   distanceToEnemy: 0.5
-  range: 5
+  range: 4
   targetTag: Enemy
-  attackRange: 1
+  attackRange: 2
   attackRate: 1
   attackCoolDown: 0
 --- !u!195 &-752660437623221924

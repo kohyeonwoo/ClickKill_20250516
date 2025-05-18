@@ -378,6 +378,7 @@
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/PlayerAttackCollision.cs"
 "Assets/Scripts/Sound.cs"
+"Assets/Scripts/Tornado_Assistant.cs"
 -langversion:9.0
 
 /deterministic
