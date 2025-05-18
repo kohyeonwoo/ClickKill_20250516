@@ -11,7 +11,7 @@ public class PlayerAttackCollision : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
-            IDamageable damageable = GetComponent<IDamageable>();
+            IDamageable damageable = other.gameObject.GetComponent<IDamageable>();
 
             if(damageable != null)
             {

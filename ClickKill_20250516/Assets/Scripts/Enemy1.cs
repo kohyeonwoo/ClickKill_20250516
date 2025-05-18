@@ -33,6 +33,11 @@ public class Enemy1 : MonoBehaviour, IDamageable
         center = GameObject.FindGameObjectWithTag("Center").transform;
     }
 
+    private void OnEnable()
+    {
+        regdollCharacter.SetActive(false);
+    }
+
     private void Update()
     {
 
