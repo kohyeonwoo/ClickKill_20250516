@@ -372,12 +372,14 @@
 "Assets/Assets/Assets/Unity UI Samples/Scripts/TiltWindow.cs"
 "Assets/Scripts/Assistant.cs"
 "Assets/Scripts/AudioManager.cs"
-"Assets/Scripts/Bear_Assistant.cs"
+"Assets/Scripts/CameraResolution.cs"
 "Assets/Scripts/Enemy1.cs"
 "Assets/Scripts/IDamageable.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/PlayerAttackCollision.cs"
+"Assets/Scripts/Rhrino_Assistant.cs"
 "Assets/Scripts/Sound.cs"
+"Assets/Scripts/TheObjectPool.cs"
 "Assets/Scripts/Tornado_Assistant.cs"
 -langversion:9.0
 

@@ -193,6 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f55a81746be35846b507424dd4f29c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  all: {fileID: 7158975086000630236}
   currentCharacter: {fileID: 5566377205849477733}
   regdollCharacter: {fileID: 6408878737163217877}
   center: {fileID: 0}
