@@ -757,8 +757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPoint: 10
   assistantList:
-  - {fileID: 1219025998980466416, guid: 37b02722a46aed242980efd0f410d3b2, type: 3}
   - {fileID: 8097462429211325645, guid: 404f90c881545d74898146615a6654c3, type: 3}
+  - {fileID: 7570721963310660998, guid: ee3d597a8e849104b9485ae85ef671ff, type: 3}
   areaList:
   - {fileID: 952787011}
   - {fileID: 114569904}

@@ -88,8 +88,6 @@ public class Enemy1 : MonoBehaviour, IDamageable
         regdollCharacter.SetActive(true);
 
         spine.AddForce(new Vector3(0.0f, 0.0f, 280.0f), ForceMode.Impulse);
-
-        Invoke("Remove", 2.0f);
     }
 
     private void CopyCharacterTransformToRegdoll(Transform origin, Transform regdoll)
@@ -118,9 +116,4 @@ public class Enemy1 : MonoBehaviour, IDamageable
         }
     }
 
-
-    private void Remove()
-    {
-        all.SetActive(false);
-    }
 }

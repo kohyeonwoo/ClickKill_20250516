@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8026330683257379810}
+  - component: {fileID: 2390837259496248601}
   m_Layer: 7
   m_Name: Enemy1
   m_TagString: Enemy
@@ -33,6 +34,20 @@ Transform:
   - {fileID: 1605905836911908096}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2390837259496248601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7158975086000630236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68bfa9342ccd6b4ea224c62b0d076b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterObject: {fileID: 5566377205849477733}
+  regdollObject: {fileID: 6408878737163217877}
 --- !u!1001 &2679370523276223473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92,7 +107,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9070214512340289572, guid: 8bca428fbe760a94ba6a889d4558da1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 663627255453351702}
   m_SourcePrefab: {fileID: 100100000, guid: 8bca428fbe760a94ba6a889d4558da1c, type: 3}
 --- !u!4 &1605905836911908096 stripped
 Transform:
@@ -104,6 +122,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9070214512340289572, guid: 8bca428fbe760a94ba6a889d4558da1c, type: 3}
   m_PrefabInstance: {fileID: 2679370523276223473}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &663627255453351702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6408878737163217877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6c5a2d514e3964ba46a2b93f1affb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alls: {fileID: 7158975086000630236}
 --- !u!54 &8702965204982457731 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 6766708974073431666, guid: 8bca428fbe760a94ba6a889d4558da1c, type: 3}

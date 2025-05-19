@@ -374,6 +374,8 @@
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/CameraResolution.cs"
 "Assets/Scripts/Enemy1.cs"
+"Assets/Scripts/Enemy1_All.cs"
+"Assets/Scripts/Enemy1_DeadBody.cs"
 "Assets/Scripts/IDamageable.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/PlayerAttackCollision.cs"
