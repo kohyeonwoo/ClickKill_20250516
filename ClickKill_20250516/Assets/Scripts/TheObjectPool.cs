@@ -55,9 +55,11 @@ public class TheObjectPool : MonoBehaviour
     {
         GameObject objects = GetPoolObject();
 
+        int rand = Random.Range(0, locationList.Count);
+
         if (objects != null)
         {
-            objects.transform.position = locationList[0].position;
+            objects.transform.position = locationList[rand].position;
             objects.SetActive(true);
         }
 
