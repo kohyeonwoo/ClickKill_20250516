@@ -32,7 +32,7 @@ public class AudioManager : MonoBehaviour
 
         if(sound == null)
         {
-            Debug.Log("ÇØ´ç BGMÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù.");
+            Debug.Log("ï¿½Ø´ï¿½ BGMï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
         }
         else
         {
@@ -47,7 +47,7 @@ public class AudioManager : MonoBehaviour
 
         if(sound == null)
         {
-            Debug.Log("ÇØ´ç È¿°úÀ½À» Ã£À» ¼ö ¾ø½À´Ï´Ù.");
+            Debug.Log("ï¿½Ø´ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
         }
         else
         {

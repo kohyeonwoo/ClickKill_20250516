@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     public float limitTime;
 
-    private int result;
+    public int result;
 
     private void Awake()
     {
@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
         }
+      
+        UnPause();
     }
 
     private void Update()
@@ -43,9 +45,20 @@ public class GameManager : MonoBehaviour
         else
         {
             endPannel.SetActive(true);
+            Pause();
             return;
         }
 
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void UnPause()
+    {
+        Time.timeScale = 1;
     }
 
     public void GoMeneScene()

@@ -167,8 +167,8 @@ GameObject:
   - component: {fileID: 8831889596363591558}
   - component: {fileID: 3073765079590218901}
   - component: {fileID: 1800650769836116659}
-  - component: {fileID: -7827672400525626381}
   - component: {fileID: 1674144799922097838}
+  - component: {fileID: -7827672400525626381}
   - component: {fileID: -7474055697823729429}
   m_Layer: 8
   m_Name: Mimic_Assistant
@@ -236,18 +236,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1.36, z: 1}
   m_Center: {x: 0, y: 0.68, z: 0}
---- !u!114 &-7827672400525626381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444277752884761681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 939dd8ccc53f8f347b99751b2b62ff0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &1674144799922097838
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -270,6 +258,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-7827672400525626381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444277752884761681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939dd8ccc53f8f347b99751b2b62ff0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 0}
+  moveRange: 5
 --- !u!114 &-7474055697823729429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,6 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: 14
+  collisionType: 1
 --- !u!1 &1789205149445039377
 GameObject:
   m_ObjectHideFlags: 0

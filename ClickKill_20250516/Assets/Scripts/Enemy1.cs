@@ -113,6 +113,8 @@ public class Enemy1 : MonoBehaviour, IDamageable
         if (currentHealth <= 0)
         {
             ChangeCharacter();
+            
+            AudioManager.Instance.PlaySFX("EnemyDeadSound");
         }
     }
 

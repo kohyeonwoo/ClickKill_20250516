@@ -224,7 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c57e4ac00763f644900ab2e5cea37d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: 13
+  attackPoint: 16
+  collisionType: 2
 --- !u!1 &933395508991879185
 GameObject:
   m_ObjectHideFlags: 0

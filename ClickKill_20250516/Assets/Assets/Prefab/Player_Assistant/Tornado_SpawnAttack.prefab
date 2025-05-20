@@ -649,6 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: 10
+  collisionType: 2
 --- !u!95 &4821362943740689189
 Animator:
   serializedVersion: 5

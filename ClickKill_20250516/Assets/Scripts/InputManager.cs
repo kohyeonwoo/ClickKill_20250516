@@ -42,7 +42,7 @@ public class InputManager : MonoBehaviour
                         damageable.Damage(attackPoint);
                     }
 
-                    Debug.Log("Àû ¸¸Áü");
+                    Debug.Log("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
                 }
 
                 Debug.Log("hit name  : " + hit.collider.gameObject.name);
@@ -62,6 +62,18 @@ public class InputManager : MonoBehaviour
 
                 if(Physics.Raycast(ray, out hit))
                 {
+                    if (hit.collider.gameObject.tag == "Enemy")
+                    {
+                        IDamageable damageable = hit.collider.gameObject.GetComponent<IDamageable>();
+
+                        if (damageable != null)
+                        {
+                            AudioManager.Instance.PlaySFX("ShotSound");
+                            damageable.Damage(attackPoint);
+                        }
+
+                    }
+
                     Debug.Log("hit name  : " + hit.collider.gameObject.name);
                 }
             }
